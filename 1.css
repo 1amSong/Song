@@ -1,0 +1,24 @@
+#header{width: 100%;height: 120px;background: #1eb0ca;}
+#main{width: 100%;height: 400px;background: #7d5cb3;}
+#left{width: 30%;height: 100%;float:left;background: rgb(212  90  90);}
+#center{width: 40%;height: 100%;float:left;background: #5877ba;}
+#right{width: 30%;height: 100%;float:left;background: rgb(234  93  93);}
+#footer{clear: both;width: 100%;height: 80px;background: white;}
+p{color: white;font-size:50px;font-weight: bolder;text-align: center;text-shadow: 0 0 10px #590dcb;}
+span{display:inline-block;font-size:50px;border-radius:70px;text-align: center;line-height: 50px;transition: all 2s;}
+span:nth-of-type(1){background-color:#9b2566;}
+span:nth-of-type(2){background-color: #90ee90;}
+p:hover span:nth-of-type(1){transform: rotate(360deg);}
+p:hover span:nth-of-type(2){transform:rotate(-360deg);}
+ul{margin: 0px;padding: 0px;}
+ul li{height: 30px;width: 115px;list-style: none;float: left;display: inline;font: 0.9em Arial Helvetica sans-serif;}
+ul li a{color: #fff;width: 113px;margin: 0px;padding: 0px 0px 0px 8px;text-decoration: none;display: block;background: #808080;line-height: 29px;border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;}
+ul li ul li{height: 25px;}
+ul li ul li a{background: #666;line-height: 24px;}
+ul li a:hover{background: #666;border-bottom: 1px dashed #ff0000}
+ul li ul{visibility: hidden;}
+ul li:hover ul{visibility: visible;}
+ul li ul li a:hover{background: #333;}
+#song,th,tr {border: 1px solid #a7c942;width: 600px;height:70;}
+#song tr:nth-child(odd) {background-color: #eaf2d3;}
+#song tr:nth-child(even) {background-color: #ffffff;}
